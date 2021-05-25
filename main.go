@@ -20,6 +20,7 @@ func (g *Game) Update() error {
 		sp.Update()
 	}
 
+	log.Println("Push test")
 	return nil
 }
 
